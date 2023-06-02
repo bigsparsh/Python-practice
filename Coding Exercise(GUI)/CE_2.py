@@ -2,8 +2,7 @@ import PySimpleGUI as Gui
 import zipfile
 import pathlib
 
-def compressor(source_address, destination_address):
-    dest = pathlib.
+print('Hello bro')
 
 label1 = Gui.Text("Source Address: ",
                   background_color='black')
