@@ -9,3 +9,8 @@ if not os.path.exists('todos.txt'):
 # Titles
 st.title('Todo Application')
 st.subheader('- Sparsh Singh')
+
+todos = func.get_todos()
+
+# Checkboxes and labels
+st.write(todos)

@@ -10,3 +10,7 @@ def get_todos():
 def write_todos(todos_local):
     with open(FILENAME, 'w') as file_local:
         file_local.writelines(todos_local)
+
+
+if __name__ == '__main__':
+    print(get_todos())
